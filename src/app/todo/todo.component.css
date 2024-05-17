@@ -1,3 +1,61 @@
-.completed .form-check-label{
-    text-decoration:line-through;
+/* Style for completed tasks */
+.completed .form-check-label {
+  text-decoration: line-through; /* Strike-through for completed tasks */
+}
+
+/* Style for overdue tasks */
+.overdue {
+  background-color: rgba(255, 0, 0, 0.2); /* Light red background for overdue tasks */
+}
+
+/* Style for tasks nearing their due date */
+.nearing-due {
+  background-color: rgba(255, 255, 0, 0.2); /* Light yellow background for tasks nearing due date */
+}
+
+/* Style for task name */
+.task-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold font */
+  color: #333; /* Text color */
+}
+
+.task-name:hover {
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: underline; /* Underline text on hover */
+}
+
+/* Style for list group items */
+.list-group-item {
+  transition: transform 0.3s ease; /* Smooth transformation on hover */
+}
+
+.list-group-item:hover {
+  transform: scale(1.02); /* Slightly enlarge item on hover */
+}
+
+/* Enhanced style for labels */
+.form-label {
+  font-size: 1.2em; 
+  font-weight: bold; 
+  color: #495057; 
+}
+
+.container{
+  min-height: 100vh;
+  background-color: rgb(183, 234, 238);
+}
+
+.app-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+  font-size: 2.5rem; /* Increase font size */
+  font-weight: bold; /* Make font bold */
+  color: #007bff; /* Primary color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  margin: 0;
 }

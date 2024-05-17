@@ -1,0 +1,14 @@
+<!-- Container for the dialog content -->
+<div class="dialog-content">
+  <!-- Task name displayed as a heading -->
+    <h2 class="task-name">{{ data.task.name }}</h2>
+    <!-- Container for task details -->
+    <div class="task-details">
+        <!-- Creation date of the task, formatted to 'yyyy-MM-dd' -->
+      <p class="creation-date"><strong>Created Date:</strong> {{ data.task.createdDate | date:"yyyy-MM-dd" }}</p>
+      <!-- Due date of the task -->
+      <p class="due-date"><strong>Due Date:</strong> {{ data.task.dueDate }}</p>
+      <!-- Description of the task -->
+      <p class="task-description"><strong>Description:</strong> {{ data.task.TaskDescription }}</p>
+    </div>
+</div>

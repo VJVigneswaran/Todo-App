@@ -1,0 +1,46 @@
+/* Styles for the dialog content container */
+.dialog-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Styles for the task name heading */
+  .task-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Margin at the top for the task details container */
+  .task-details {
+    margin-top: 20px;
+  }
+  
+  /* General styles for paragraphs within task details */
+  .task-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Specific styles for the creation date paragraph */
+  .creation-date {
+    font-weight: bold; 
+    color: #666; 
+  }
+  
+  /* Specific styles for the due date paragraph */
+  .due-date {
+    font-weight: bold;
+    color: #d9534f; 
+  }
+  
+  
+  /* Specific styles for the task description paragraph */
+  .task-description {
+    color: #333;
+    line-height: 1.4;
+  }
+
+  
