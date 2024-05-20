@@ -1,27 +1,93 @@
-# TodoApp
+# Todo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+A simple yet powerful task management application designed to help users organize their daily tasks efficiently. With an intuitive user interface and essential features, this app simplifies task tracking and enhances productivity.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Task Management**: Add, edit, and delete tasks effortlessly.
+- **Due Dates**: Set due dates to prioritize tasks and stay organized.
+- **Task Categories**: Group tasks into categories for better organization.
+- **Task Status**: Mark tasks as complete or incomplete to track progress.
+- **Responsive Design**: Enjoy a seamless experience across devices with responsive design.
+- **Animations**: Smooth animations using Animate.css.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend**: Angular
+- **Styling**: Bootstrap
+- **Animations**: Animate.css
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Make sure you have the following installed on your system:
 
-## Running end-to-end tests
+- **Node.js** (v12 or higher)
+- **npm** (v6 or higher)
+- **Angular CLI** (v10 or higher)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Installation
 
-## Further help
+1. **Clone the repository:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```bash
+    git clone https://github.com/your-username/todo-app.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd todo-app
+    ```
+
+3. **Install the dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+1. **Start the development server:**
+
+    ```bash
+    ng serve
+    ```
+
+2. **Open your browser and navigate to:**
+
+    ```
+    http://localhost:4200
+    ```
+
+You should see the Todo App running.
+
+### Usage
+
+- **Add a Task**: Enter the task name, due date, and description. Click "Add Task" to add it to your task list.
+- **Mark as Complete**: Click the checkbox next to a task to mark it as complete.
+- **Remove a Task**: Click the "Remove" button next to a task to delete it.
+- **Filter Tasks**: Use the filter buttons to view all tasks, only active tasks, or only completed tasks.
+
+### Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Acknowledgements
+
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Animate.css](https://animate.style/)
